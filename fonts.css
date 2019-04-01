@@ -1,9 +1,0 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-/* this is how you make a comment in css which is weird 
-put the tag you want to have a weird font in this page, just the font family, everything else goes in other css */ 
-
-.header {
-    font-family: cinzel;
-    font-family: ubuntu;
-}

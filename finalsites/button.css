@@ -1,0 +1,162 @@
+body {
+    overflow-x: hidden;
+}
+.btn {
+    font-family: 'impact'; 
+    /*border: 2px solid black;*/
+    border-color: white;
+    border-width: thick;
+    color: black;
+    padding: 14px 28px;
+    font-size: 1.32vw;
+    align-content: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px grey;
+   margin-top:.5vw;
+}
+
+/*Navbar Buttons for algorithm page*/
+.btna {
+    font-family: 'impact'; 
+    /*border: 2px solid black;*/
+    border-color: white;
+    border-width: thick;
+    color: black;
+    padding: 14px 28px;
+    font-size: 1.32vw;
+    align-content: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px grey;
+   margin-top:7.5vw;
+}
+
+/* Green */
+.timeline {
+    border-color: #4CAF10;
+    color: white;
+    background-color: #4CAF25;
+    transition-duration: .3s;
+
+}
+
+.timeline:hover {
+    background-color: white;
+    color: #4CAF25;
+}
+
+/* Blue */
+.video {
+    border-color: #2196F3;
+    background-color: dodgerblue;
+    transition-duration: .3s;
+    color: white;
+}
+
+.video:hover {
+    background: white;
+    color: #2196F3;
+}
+
+/* Orange */
+.algorithm {
+    border-color: #ff9800;
+    background-color: #ff9800;
+    color: white;
+    transition-duration: .3s;
+}
+
+.algorithm:hover {
+    background: white;
+    color: #ff9800;
+}
+
+
+/* Red Button */
+.shops {
+    border-color: #f44336;
+    background-color: #f44336;
+    color: white;
+    transition-duration: .3s;
+}
+
+.shops:hover {
+    background: white;
+    color: #f44336;
+}
+
+/* Yellow Button */
+.home {
+    border-color: #ffd016;
+    background-color: #ffd016;
+    color: white;
+    transition-duration: .3s;
+}
+
+.home:hover {
+    background: white;
+    color:#ffd016;
+}
+
+/*Home Page Slides Buttons*/
+.slidebtn{
+     font-family: 'Impact'; 
+    /*border: 2px solid black;*/
+    padding: 1vw 1vw;
+    width:20vw;
+    font-size: 2.01vw;
+    align-content: center;
+    cursor: pointer;
+   margin-top: 2.5vw;
+   margin-left: 30vw;
+    position:absolute;
+
+    
+}
+
+/*slide 2*/
+.learn{
+     border-style: solid 5px black;
+    background-color: #d30606;
+    color: white;
+    transition-duration: .3s;
+     text-align: center;
+        box-shadow: 3px 3px 2px darkred;
+    
+}
+/*change color on hover */
+.learn:hover{
+     background: white;
+    color:#d30606;
+}
+
+/* slide 3 */
+.practice{
+    border-style: solid 5px black;
+    background-color: orangered;
+    color: white;
+    transition-duration: .3s;
+    text-align: center;
+    box-shadow: 3px 3px 2px darkorange;
+
+}
+/*change color on hover*/
+.practice:hover{
+     background: white;
+    color:orangered;   
+}
+
+/*slide 4*/
+.challenge{
+    background-color: darkorange;
+    color: white;
+    transition-duration: .3s;
+     text-align: center;
+        box-shadow: 3px 3px 2px #c76d00;
+}
+/*change color on hover*/
+.challenge:hover {
+    background: white;
+    color:darkorange;
+}
+
+

@@ -1,0 +1,1360 @@
+/*default body settings*/
+body{
+    overflow-x: hidden;
+}
+
+/*PLL Algorithm Grid*/
+div {
+    position: absolute;   
+    color: transparent;
+    background-color: darkgray;
+}
+.container2{
+    background-color: orange;
+    border: solid 3px orangered;
+    width: 54.5vw;
+    height: 200vw;
+    margin-left: 42vw;
+    border-radius: 4%;
+    margin-bottom: 50px;
+    margin-top: 12vw;
+    box-shadow: 2px 2px 3px grey;
+}
+
+/*Titles The Grid*/
+.cubetitle2 {
+    font-size: 10vw;
+    font-family: 'impact';
+    background-color: transparent;
+    color: white;
+    text-shadow: 3px 3px 3px orangered;
+    letter-spacing: 5px;
+    top: .2%;
+    left: 7.5%;
+}
+
+/*Subtitle text settings*/
+.cubesubtitle2 {
+    font-size: 2.5vw;
+    font-family: 'impact';
+    background-color: transparent;
+    text-shadow: 2px 2px 5px orangered;
+    color: white;
+    left: 38%;
+    top: 3.5%;
+
+}
+
+.yellow {
+    background-color: yellow;
+}
+.orange {
+    background-color: darkorange;
+}
+.green{
+    background-color:lawngreen;
+}
+.blue {
+    background-color:blue;
+}
+.red {
+    background-color:red;
+}
+
+
+.cubea {
+    left: 2%;
+    top: 1%;
+    width: 30vw;
+    height: 30vw;
+    background-color: transparent;
+    object-fit: cover;
+}
+.sidea {
+    width: 10%;
+    height: 25%;
+}
+.topa {
+    width: 25%;
+    height: 10%;    
+}
+.cornera {
+    width: 10%;
+    height: 10%;
+    background-color: transparent;
+}
+.squarea {
+    width: 25%;
+    height: 25%;
+}
+.box1a {
+    left: 0%;
+    top: 0%;
+}
+.box2a {
+    left: 10%;
+    top: 0%;
+    border-left: solid black 2px;
+    border-top: solid black 2px;
+}
+.box3a { 
+    left: 35%;
+    top: 0%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+.box4a {
+    left: 60%;
+    top: 0%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+.box5a {
+    left: 85%;
+    top: 0%;
+    border-left: solid black 2px;  
+}
+.box6a {
+    left: 0%;
+    top: 10%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;   
+}
+.box7a {
+    left: 10%;
+    top: 10%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;   
+}
+.box8a {
+    left: 35%;
+    top: 10%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;  
+}
+.box9a {
+    left: 60%;
+    top: 10%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;  
+}
+.box10a {
+    left: 85%;
+    top: 10%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+.box11a {
+    left: 0%;
+    top: 35%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+.box12a {
+    left: 10%;
+    top: 35%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;   
+}
+.box13a {
+    left: 35%;
+    top: 35%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;  
+}
+.box14a {
+    left: 60%;
+    top: 35%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;    
+}
+.box15a {
+    left: 85%;
+    top: 35%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+.box16a {
+    left: 0%;
+    top: 60%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+.box17a {
+    left: 10%;
+    top: 60%;
+    border-top: solid black 2px;
+    border-left: solid black 2px
+}
+.box18a {
+    left: 35%;
+    top: 60%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+.box19a {
+    left: 60%;
+    top: 60%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+.box20a {
+    left: 85%;
+    top: 60%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+.box21a {
+    left: 0%;
+    top: 85%;
+    border-top: solid black 2px;
+}
+.box22a {
+    left: 10%;
+    top: 85%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+}
+.box23a { 
+    left: 35%;
+    top: 85%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+}
+.box24a {
+    left: 60%;
+    top: 85%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+}
+.box25a {
+    left: 85%;
+    top: 85%;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+}
+.algorithma {
+    font-family: ubuntu;
+    background-color: white;
+    font-size: 1.7vw;
+    text-align: center;
+    border: solid 2px orangered;
+    color: black;
+    text-shadow: 0px 0px 0px transparent;
+    opacity: .9;
+    top: 100%;
+    height: 8vw;
+    width: 95%;
+    line-height: 2.5vw;
+}
+.cube1a {
+    left: 2vw;
+    top: 20vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent  
+}
+
+.cube2a {
+    left: 20vw;
+    top: 20vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube3a {
+    left: 38vw;
+    top: 20vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube4a {
+    left: 2vw;
+    top: 45vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube5a {
+    left: 20vw;
+    top: 45vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube6a {
+    left: 38vw;
+    top: 45vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube7a {
+    left: 2vw;
+    top: 70vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube8a {
+    left: 20vw;
+    top: 70vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube9a {
+    left: 38vw;
+    top: 70vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube10a {
+    left: 2vw;
+    top: 95vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube11a {
+    left: 20vw;
+    top: 95vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube12a {
+    left: 38vw;
+    top: 95vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube13a {
+    left: 2vw;
+    top: 120vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube14a {
+    left: 20vw;
+    top: 120vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube15a {
+    left: 38vw;
+    top: 120vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube16a {
+    left: 2vw;
+    top: 145vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube17a {
+    left: 20vw;
+    top: 145vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube18a {
+    left: 38vw;
+    top: 145vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube19a {
+    left: 2vw;
+    top: 170vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube20a {
+    left: 20vw;
+    top:170vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+.cube21a {
+    left: 38vw;
+    top: 170vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+}
+
+/*Arrows for cube grid*/
+.arrow1 { 
+    background-color: cyan;
+    width: 9.5vw;
+    height: 1vw;
+    top: 6.8vw;
+    left: 2vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow2 { 
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 9vw;
+    left: 7vw;
+    transform: rotate(135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow3 { 
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 9vw;
+    left: 2vw;
+    transform: rotate(-135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow4 {
+    background-color: cyan;
+    width: 9.5vw;
+    height: 1vw;
+    transform: rotate(180deg);
+    top: 6.8vw;
+    left: 2vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow5 { 
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 9vw;
+    left: 2vw;
+    transform: rotate(-315deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow6 { 
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 9vw;
+    left: 7vw;
+    transform: rotate(315deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow7 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.8vw;
+    left: 1.8vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow8 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 2vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow9 { 
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 9vw;
+    left: 2vw;
+    transform: rotate(-135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow10 { 
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 5vw;
+    left: 6vw;
+    transform: rotate(-135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow11 {
+    background-color: cyan;
+    width: 9.5vw;
+    height: 1vw;
+    top: 10.6vw;
+    left: 2vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow12 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 6.2vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow13 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 6.4vw;
+    left: 1.4vw;
+    transform: rotate(315deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+
+.arrow14 {
+    background-color: cyan;
+    width: 9.5vw;
+    height: 1vw;
+    top: 10.6vw;
+    left: 2vw;
+    transform: rotate(180deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow15 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 6.4vw;
+    left: 1.2vw;
+    transform: rotate(135deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow16 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 6.2vw;
+    transform: rotate(-90deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow17 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: -1.9vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow18 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 5.7vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow19 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 5.7vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow20 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    top: 6.8vw;
+    left: 1.9vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow21 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 5.7vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow22 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 2.2vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow23 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 6.8vw;
+    left: .4vw;
+    transform: rotate(-315deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow24 {
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 4.9vw;
+    left: 5.5vw;
+    transform: rotate(-135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow25 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 6.8vw;
+    left: .4vw;
+    transform: rotate(-315deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow26 {
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 4.8vw;
+    left: 2vw;
+    transform: rotate(135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow27 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 5.7vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow28 {
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 8.5vw;
+    left: 5.7vw;
+    transform: rotate(135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow29 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 10.7vw;
+    left: 1.8vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow30 {
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 8.7vw;
+    left: 5.3vw;
+    transform: rotate(135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow31 {
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 8.7vw;
+    left: 5.5vw;
+    transform: rotate(135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow32 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 3.1vw;
+    left: 1.8vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow33 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 10.7vw;
+    left: 1.8vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow34 {
+    background-color: cyan;
+    width: 4.5vw;
+    height: 1vw;
+    top: 4.9vw;
+    left: 5.5vw;
+    transform: rotate(-135deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow35 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    transform: rotate(180deg);
+    top: 6.8vw;
+    left: 4.6vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+    z-index: 1;
+}
+.arrow36 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    transform: rotate(180deg);
+    top: 10.7vw;
+    left: 4.6vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow37 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    top: 6.3vw;
+    left: -.5vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow38 {
+    background-color: cyan;
+    width: 7vw;
+    height: 1vw;
+    top: 5.5vw;
+    left: 3.5vw;
+    transform: rotate(-135deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow39 {
+    background-color: cyan;
+    width: 3vw;
+    height: .5vw;
+    transform: rotate(45deg);
+    top: 9vw;
+    left: 3vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow40 {
+    background-color: cyan;
+    width: 3vw;
+    height: .5vw;
+    transform: rotate(-45deg);
+    top: 9vw;
+    left: 7vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow41 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    top: 6.3vw;
+    left: -.5vw;
+    transform: rotate(-90deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow42 {
+    background-color: cyan;
+    width: 5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 3.8vw;
+    transform: rotate(-90deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+    z-index: 1;
+}
+.arrow43 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    transform: rotate(180deg);
+    top: 2.5vw;
+    left: 4.4vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+    z-index: 1;
+}
+.arrow44 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 7vw;
+    left: 1.2vw;
+    transform: rotate(135deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow45 {
+    background-color: cyan;
+    width: 3vw;
+    height: .5vw;
+    transform: rotate(-45deg);
+    top: 5.5vw;
+    left: 3vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow46 {
+    background-color: cyan;
+    width: 3vw;
+    height: .5vw;
+    transform: rotate(225deg);
+    top: 9.3vw;
+    left: 3.2vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow47 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    transform: rotate(180deg);
+    top: 2.5vw;
+    left: 4.4vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+    z-index: 1;
+}
+.arrow48 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    top: 6.3vw;
+    left: -.5vw;
+    transform: rotate(-90deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow49 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    transform: rotate(180deg);
+    top: 6.8vw;
+    left: 4.6vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+    z-index: 1;
+}
+.arrow50 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 7vw;
+    left: 1.2vw;
+    transform: rotate(135deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow51 {
+    background-color: cyan;
+    width: 3vw;
+    height: .5vw;
+    transform: rotate(-45deg);
+    top: 5.5vw;
+    left: 3vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow52 {
+    background-color: cyan;
+    width: 3vw;
+    height: .5vw;
+    transform: rotate(-315deg);
+    top: 5.7vw;
+    left: 7.6vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow53 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 7vw;
+    left: 1.2vw;
+    transform: rotate(225deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow54 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    transform: rotate(180deg);
+    top: 10.7vw;
+    left: 4.6vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow55 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    top: 6.3vw;
+    left: -1.2vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow56 {
+    background-color: cyan;
+    width: 6vw;
+    height: 1vw;
+    top: 6.3vw;
+    left: 3vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow57 {
+    background-color: cyan;
+    width: 3vw;
+    height: .5vw;
+    transform: rotate(45deg);
+    top: 9vw;
+    left: 3vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow58 {
+    background-color: cyan;
+    width: 3vw;
+    height: .5vw;
+    transform: rotate(-225deg);
+    top: 4.7vw;
+    left: 3vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow59 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 2vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow60 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 6.8vw;
+    left: .4vw;
+    transform: rotate(-315deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow61 {
+    background-color: cyan;
+    width: 8.5vw;
+    height: 1vw;
+    top: 6.7vw;
+    left: 2vw;
+    transform: rotate(90deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-left: solid 12px darkred;
+    border-right: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}
+.arrow62 {
+    background-color: cyan;
+    width: 11vw;
+    height: 1vw;
+    top: 6.8vw;
+    left: .4vw;
+    transform: rotate(315deg);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-right: solid 12px darkred;
+    border-left: solid 12px darkred;
+    background-image: linear-gradient(to right, red , orangered);
+    color: transparent;
+}

@@ -8,14 +8,17 @@ body {
     border-width: thick;
     color: black;
     padding: 14px 28px;
-    font-size: 1.32vw;
+    font-size: 1.8vw;
     align-content: center;
     cursor: pointer;
     box-shadow: 1px 1px 2px grey;
-   margin-top:.5vw;
+    margin-top:.5vw;
+    letter-spacing: .1vw;
+    text-shadow: 1px 1px 2px black;
 }
 
-/*Navbar Buttons for algorithm page*/
+/*Navbar Buttons for algorithm page
+Source: W3 Schools*/
 .btna {
     font-family: 'impact'; 
     /*border: 2px solid black;*/
@@ -23,11 +26,13 @@ body {
     border-width: thick;
     color: black;
     padding: 14px 28px;
-    font-size: 1.32vw;
+    font-size: 1.8vw;
     align-content: center;
     cursor: pointer;
     box-shadow: 1px 1px 2px grey;
-   margin-top:7.5vw;
+    margin-top:7.5vw;
+    letter-spacing: .1vw;
+    text-shadow: 1px 1px 2px black;
 }
 
 /* Green */
@@ -42,6 +47,7 @@ body {
 .timeline:hover {
     background-color: white;
     color: #4CAF25;
+    text-shadow: 0px 0px 0px transparent;
 }
 
 /* Blue */
@@ -55,6 +61,7 @@ body {
 .video:hover {
     background: white;
     color: #2196F3;
+    text-shadow: 0px 0px 0px transparent;
 }
 
 /* Orange */
@@ -68,8 +75,8 @@ body {
 .algorithm:hover {
     background: white;
     color: #ff9800;
+    text-shadow: 0px 0px 0px transparent;
 }
-
 
 /* Red Button */
 .shops {
@@ -82,6 +89,7 @@ body {
 .shops:hover {
     background: white;
     color: #f44336;
+    text-shadow: 0px 0px 0px transparent;
 }
 
 /* Yellow Button */
@@ -95,38 +103,41 @@ body {
 .home:hover {
     background: white;
     color:#ffd016;
+    text-shadow: 0px 0px 0px transparent;
 }
 
-/*Home Page Slides Buttons*/
+/*Home Page Slides Buttons
+src: w3 schools*/
 .slidebtn{
-     font-family: 'Impact'; 
+    font-family: 'Impact'; 
     /*border: 2px solid black;*/
     padding: 1vw 1vw;
     width:20vw;
     font-size: 2.01vw;
-    align-content: center;
     cursor: pointer;
-   margin-top: 2.5vw;
-   margin-left: 30vw;
+    margin-top: 2.5vw;
+    margin-left: 33.5vw;
     position:absolute;
-
-    
+    letter-spacing: .09vw;
 }
 
 /*slide 2*/
 .learn{
-     border-style: solid 5px black;
+    border-style: solid 5px black;
     background-color: #d30606;
     color: white;
     transition-duration: .3s;
-     text-align: center;
-        box-shadow: 3px 3px 2px darkred;
-    
+    text-align: center;
+    box-shadow: 3px 3px 2px darkred;
+     text-shadow: 0px 0px 0px darkred;
+
 }
+
 /*change color on hover */
 .learn:hover{
-     background: white;
+    background: white;
     color:#d30606;
+    text-shadow: 0px 0px 0px transparent;
 }
 
 /* slide 3 */
@@ -137,26 +148,29 @@ body {
     transition-duration: .3s;
     text-align: center;
     box-shadow: 3px 3px 2px darkorange;
-
 }
 /*change color on hover*/
 .practice:hover{
-     background: white;
+    background: white;
     color:orangered;   
+    text-shadow: 0px 0px 0px transparent;
 }
 
 /*slide 4*/
-.challenge{
+.watch{
     background-color: darkorange;
     color: white;
     transition-duration: .3s;
-     text-align: center;
-        box-shadow: 3px 3px 2px #c76d00;
+    text-align: center;
+    box-shadow: 3px 3px 2px #c76d00;
+     text-shadow: 1px 2px 1px orange;
 }
+
 /*change color on hover*/
-.challenge:hover {
+.watch:hover {
     background: white;
     color:darkorange;
+    text-shadow: 0px 0px 0px transparent;
 }
 
 

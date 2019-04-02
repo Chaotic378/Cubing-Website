@@ -1,0 +1,90 @@
+/*NavBar/heading for timeline page*/
+body {
+    
+}
+.btna {
+    font-family: 'impact'; 
+    /*border: 2px solid black;*/
+    border-color: white;
+    border-width: thick;
+    color: black;
+    padding: 14px 28px;
+    font-size: 1.8vw;
+    align-content: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px grey;
+    margin-top:7.5vw;
+    letter-spacing: .1vw;
+    text-shadow: 1px 1px 2px black;
+    object-position: center;
+}
+/* Green */
+.timeline {
+    border-color: #4CAF10;
+    color: white;
+    background-color: #4CAF25;
+    transition-duration: .3s;
+
+}
+
+.timeline:hover {
+    background-color: white;
+    color: #4CAF25;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+/* Blue */
+.video {
+    border-color: #2196F3;
+    background-color: dodgerblue;
+    transition-duration: .3s;
+    color: white;
+}
+
+.video:hover {
+    background: white;
+    color: #2196F3;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+/* Orange */
+.algorithm {
+    border-color: #ff9800;
+    background-color: #ff9800;
+    color: white;
+    transition-duration: .3s;
+}
+
+.algorithm:hover {
+    background: white;
+    color: #ff9800;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+/* Red Button */
+.shops {
+    border-color: #f44336;
+    background-color: #f44336;
+    color: white;
+    transition-duration: .3s;
+}
+
+.shops:hover {
+    background: white;
+    color: #f44336;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+/* Yellow Button */
+.home {
+    border-color: #ffd016;
+    background-color: #ffd016;
+    color: white;
+    transition-duration: .3s;
+}
+
+.home:hover {
+    background: white;
+    color:#ffd016;
+    text-shadow: 0px 0px 0px transparent;
+}

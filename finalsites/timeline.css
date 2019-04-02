@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body {
+    background-color: #0000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*timeline box/container*/
+.tbox{
+    background-color: forestgreen;
+    width:97.9vw;
+    height: 550vw;
+    margin-top: 1.5vw;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkgreen;
+    border-width: thick;
+    font-size: 4vw;
+    color:white;
+    font-family:'impact'; 
+    text-shadow: 5px 5px 1px darkgreen;
+    text-align: center;
+    position: relative;
+    align-content: center;
+}
+h1 {
+    color:white;
+    font-size:4vw;
+    font-family: 'impact';
+    text-align: center;
+    margin-top: -5vw;
+    text-shadow: 4px 4px 1px darkgreen;
+    
+    
+}
+h3 {
+    color:white;
+    font-size:2vw;
+    text-align:center;
+    margin-top: -2.5vw;
+    text-shadow: 2px 3px 1px darkgreen;
+}
+
+div {
+    background-color: transparent;
+    position: absolute;
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2vw;
+    padding:3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute
+}
+
+img {
+    border-radius:18px;
+    transition-duration: 2s;
+    position:absolute;
+}
+
+/*big bang*/
+
+.bigbang{
+    width:20vw;
+    margin-left: -40vw;
+}
+.cbigbang{
+    color: white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:17vh;
+    left:30vw;
+    
+}
+/*erno was born*/
+.born{
+     width:20vw;
+    margin-left: -40vw;
+    margin-top: 22vw;
+}
+.cborn{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:53vh;
+    left:30vw;
+}
+/* the first two by two puzzle cube*/
+.twizzle{
+     width:20vw;
+    margin-left: -40vw;
+    margin-top: 50vw;
+}
+.ctwizzle{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:79vh;
+    left:30vw;
+}
+.originalcube{
+    width:20vw;
+    margin-top: 67.5vw;
+    margin-left: -40vw;
+}
+.coriginalcube{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:104vh;
+    left:30vw;
+}
+.revenge{
+     width:20vw;
+   margin-left: -40vw;
+    margin-top: 90vw;
+}
+.crevenge{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:130vh;
+    left:30vw;
+}
+.rerubiks{
+     width:20vw;
+    margin-left: -40vw;
+    margin-top: 113vw;
+}
+.crerubiks{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:160vh;
+    left:30vw;
+}
+.mrrubik{
+     width:20vw;
+    margin-left: -40vw;
+    margin-top: 168vh
+}
+.cmrrubik{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:189vh;
+    left:30vw;
+}
+.youcandothecube{
+    width:20vw;
+    margin-left:-40vw;
+    margin-top: 199vh
+}
+.cyoucandothecube{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:216vh;
+    left:30vw;
+}
+.oxford{
+    width:20vw;
+    margin-left:-40vw;
+    margin-top:224vh;
+}
+.coxford{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:249vh;
+    left:30vw;
+}
+.tv{
+    width:20vw;
+    margin-left:-40vw;
+    margin-top: 262vh;
+}
+.ctv{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:288vh;
+    left:30vw;
+}
+.clock{
+    width:20vw;
+    margin-left:-40vw;
+    margin-top:304vh;
+}
+.cclock{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:324vh;
+    left:30vw;
+}
+.WCA{
+    width:20vw;
+    margin-left:-40vw;
+    margin-top:328vh;
+}
+.cWCA{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:348vh;
+    left:30vw;
+}
+.vcube{
+    width:20vw;
+    margin-left:-40vw;
+    margin-top:357vh;
+}
+.cvcube{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:373vh;
+    left:30vw;
+}
+.godsnumber{
+    width:20vw;
+    margin-left:-40vw;
+    margin-top:376vh;
+}
+.cgodsnumber{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:392vh;
+    left:30vw;
+}
+.biggestcube{
+    width:20vw;
+    margin-left:-40vw;
+    margin-top:394vh;
+}
+.cbiggestcube{
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:410vh;
+    left:30vw;
+}
+/*.caption{
+    color: white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:;
+    left:30vw;
+    
+} */
+
+/*The Big Bang*/

@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="oll.css" type="text/css" rel="stylesheet">
+        <link href="../Aesthetic/fontsoll.css" type="text/css" rel="stylesheet">
+        <link href="magiccube.css" type="text/css" rel="stylesheet">
+        <link href="../Aesthetic/button.css" rel="stylesheet" type="text/css">
+        <link href="../Aesthetic/banner.css"type="text/css"rel="stylesheet">
+        <link href="pll.css"type="text/css"rel="stylesheet">
+        <link href="sticky.css"type="text/css"rel="stylesheet">
+        <title>Algorithms</title>
+    </head>
+
+    <body>
+        <!--NavBar-->
+        <center>
+            <div class="header">PROJECT TESSERACT</div>
+            <!--YELLOW Button-->
+            <a href="../Home/home.html">
+                <button class="btna home ">Home</button>
+            </a>
+            <!--GREEN Button-->
+            <a href="../Timeline/timeline.html">
+                <button class="btna timeline">Timeline</button>
+            </a>
+            <!--BLUE-->
+            <a href="../StopMotion/video.html"> 
+                <button class="btn video">Mosaic</button></a>
+            <!--ORANGE Button-->
+            <a href="../Algorithm/rubikgrid.html">
+                <button class="btna algorithm">Algorithm</button>
+            </a>
+            <!--RED Button -->
+            <a href="../Shops/links.html"> 
+                <button class="btna shops">Shops</button>
+            </a>
+        </center>
+
+        <div class="introduction">
+            <div class="introtitle">About This Page</div><div class="info">
+            This page is for resources, algorithms, diagrams, demonstrations, and other helpful tools to help you build muscle memory. <br>
+            Here you'll find Stellar's Magic Grid, Stellar's Magic Key, Stellar's Magic Cube, and some of his other treasures.</div></div>
+
+        <div class="keyintro">Keys
+            <div class="returnofkey">
+                On the left is a grid of algorithm    terminology. To keep algorithms short, they're made up of single    letters, numbers, and symbols. This is what those seemingly random  assortments boil down to.<br>
+                On the right is a little rendering of a Rubik's cube. The letter terms are mostly arbitrary, and it doesn't matter which face you hold in front. However, most formats of solving will usually consider the yellowtag face to be the top, and the yellowtag face to be the bottom, though some will involve starting with the White side on top and flipping the cube upside-down.</div></div>
+
+        <div class="keyhole">
+            <table style="width:65vw">
+                <tr>
+                    <th colspan=8>Algorithm Key </th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter">
+                            F
+                        </div>
+                    </td>
+                    <td>Front <br>Clockwise</td> 
+                    <td>
+                        <div class="bigletter">F'</div>
+                    </td>
+                    <td>Front <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter">F2</div>
+                    </td>
+                    <td>Front <br> Twice</td>
+                    <td>
+                        <div class="bigletter">f</div></td>
+                    <td>Front +<br> Adjacent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter">R</div>
+                    </td>
+                    <td>Right <br> Clockwise</td> 
+                    <td>
+                        <div class="bigletter">R'</div>
+                    </td>
+                    <td>Right <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter">R2</div>
+                    </td>
+                    <td>Right <br> Twice</td>
+                    <td>
+                        <div class="bigletter">r</div>
+                    </td>
+                    <td>Right +<br> Adjacent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter">U</div>
+                    </td> 
+                    <td>Upper <br> Clockwise</td> 
+                    <td>
+                        <div class="bigletter">U'</div>
+                    </td>
+                    <td>Upper <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter">U2</div>
+                    </td>
+                    <td>Upper <br> Twice</td>
+                    <td>
+                        <div class="bigletter">u</div>
+                    </td>
+                    <td>Upper +<br> Adjacent</td>
+                <tr>
+                    <td>
+                        <div class="bigletter">L</div>
+                    </td>
+                    <td>Left <br> Clockwise</td>
+                    <td>
+                        <div class="bigletter">L'</div>
+                    </td>
+                    <td>Left <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter">L2</div>
+                    </td>
+                    <td>Left <br> Twice</td>
+                    <td>
+                        <div class="bigletter">l</div>
+                    </td>
+                    <td>Left +<br> Adjacent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter">B</div>
+                    </td>
+                    <td>Back <br> Clockwise</td>
+                    <td>
+                        <div class="bigletter">B'</div>
+                    </td>
+                    <td>Back <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter">B2</div>
+                    </td>
+                    <td>Back <br> Twice</td>
+                    <td>
+                        <div class="bigletter">b</div>
+                    </td>
+                    <td>Back +<br> Adjacent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter">D</div>
+                    </td>
+                    <td>Down <br> Clockwise</td>
+                    <td>
+                        <div class="bigletter">D'</div>
+                    </td>
+                    <td>Down <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter">D2</div>
+                    </td>
+                    <td>Down <br>Twice</td>
+                    <td>
+                        <div class="bigletter">d</div>
+                    </td>
+                    <td>Down +<br> Adjacent</td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <!--XYZ-->
+        <div class="titlexyz"><div class="subxyz">What Is XYZ?</div>
+            <div class="rotations">In some more complex algorithms, you'll see the letters X, Y, and Z, along with their counterclockwise versions X', Y', and Z'. These are used to denote rotation of the entire cube to view it from a different angle, instead of just one face.</div>
+
+
+            <div class="flip-card card1">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="subtitlexyz x">X, X', and X2</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="textx">
+                            To rotate the cube along the right face, either clockwise, counterclockwise, or twice, respectively.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flip-card card2">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="subtitlexyz y">Y, Y', and Y2</div></div>
+                    <div class="flip-card-back">
+                        <div class="texty">
+                            If you need to rotate the cube along the upper face either clockwise, counterclockwise, or twice, this is what you're probably looking at. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flip-card card3">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="subtitlexyz z">Z, Z', and Z</div></div>
+                    <div class="flip-card-back">
+                        <div class="textz">
+                            These are the ones used if you're in a hurry to have your cube rotated clockwise, counterclockwise, or twice along the back face. </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--MAGIC CUBE SUB-->
+            <div class="magicsubtitle">Behold, Stellar's Magic Flashing Cube. This details a cube beind held upside down. Perhaps the holder likes the white cross to be on top.</div>
+
+
+            <div class="whitecrosstitle">The White Cross
+                <div class="whitecrosstext">
+                    Before learning any direct algorithms, the first step to solving the cube is mostly intuitive. It’s important to remember that center pieces never move, and you’ve moving everything around them. <br>Start with the white center piece, and line up the four cardinal edge pieces with it. The white/orange, white/green, white/blue, and white/red pieces should bridge between the white center piece, and the center pieces of those colors on the sides of the cube. <br>It’s tricky to do and hard to explain at first, but after a bit of toying with how the pieces move, this step becomes easier with practice.<br><b>Hold the cube so that the white center is faced up.</b> </div></div>
+            <div class="crosscubebefore">
+                <div class="box1 corner">  </div>
+                <div class="box2 top bluetag">  </div>
+                <div class="box3 top orangetag">  </div>
+                <div class="box4 top orangetag">  </div>
+                <div class="box5 corner">  </div>
+                <div class="box6 side yellowtag">  </div>
+                <div class="box7 square orangetag"></div>
+                <div class="box8 square yellowtag"> </div>
+                <div class="box9 square yellowtag"> </div>
+                <div class="box10 side greentag"> </div>
+                <div class="box11 side whitetag"> </div>
+                <div class="box12 square redtag"> </div>
+                <div class="box13 square whitetag"> </div>
+                <div class="box14 square greentag"> </div>
+                <div class="box15 side whitetag"> </div>
+                <div class="box16 side bluetag"> </div>
+                <div class="box17 square whitetag"> </div>
+                <div class="box18 square redtag"> </div>
+                <div class="box19 square yellowtag"> </div>
+                <div class="box20 side redtag"> </div>
+                <div class="box21 corner"> </div>
+                <div class="box22 top orangetag"> </div>
+                <div class="box23 top greentag"> </div>
+                <div class="box24 top bluetag"> </div>
+                <div class="box25 corner"> </div>
+            </div>
+            <div class="crossarrow">Into</div>
+            <div class="crosscubeafter">
+                <div class="box1 corner">  </div>
+                <div class="box2 top redtag">  </div>
+                <div class="box3 top redtag">  </div>
+                <div class="box4 top whitetag">  </div>
+                <div class="box5 corner">  </div>
+                <div class="box6 side whitetag">  </div>
+                <div class="box7 square greentag"></div>
+                <div class="box8 square whitetag"> </div>
+                <div class="box9 square bluetag"> </div>
+                <div class="box10 side orangetag"> </div>
+                <div class="box11 side bluetag"> </div>
+                <div class="box12 square whitetag"> </div>
+                <div class="box13 square whitetag"> </div>
+                <div class="box14 square whitetag"> </div>
+                <div class="box15 side greentag"> </div>
+                <div class="box16 side yellowtag"> </div>
+                <div class="box17 square greentag"> </div>
+                <div class="box18 square whitetag"> </div>
+                <div class="box19 square greentag"> </div>
+                <div class="box20 side yellowtag"> </div>
+                <div class="box21 corner"> </div>
+                <div class="box22 top redtag"> </div>
+                <div class="box23 top orangetag"> </div>
+                <div class="box24 top yellowtag"> </div>
+                <div class="box25 corner"> </div>
+            </div>
+            <div class="cornertitle">First Layer</div>
+            <div class="cornertext">When you have the white cross, it’s easy to complete the first layer. Line up the missing white corner pieces by color<br> (for example, put the white/red/blue piece on the underside of the cube, opposite of where it should be)<br> and repeat this simple algorithm:</div>
+            <div class="rdrd">R'D'RD</div>
+            <div class="cornerfollowup">Until the corner piece is in place. Repeat this for all four corners.</div>
+
+            <div class="cornercubebefore">
+                <div class="box2 top redtag">  </div>
+                <div class="box3 top redtag">  </div>
+                <div class="box4 top whitetag">  </div>
+                <div class="box5 corner">  </div>
+                <div class="box6 side whitetag">  </div>
+                <div class="box7 square greentag"></div>
+                <div class="box8 square whitetag"> </div>
+                <div class="box9 square bluetag"> </div>
+                <div class="box10 side orangetag"> </div>
+                <div class="box11 side bluetag"> </div>
+                <div class="box12 square whitetag"> </div>
+                <div class="box13 square whitetag"> </div>
+                <div class="box14 square whitetag"> </div>
+                <div class="box15 side greentag"> </div>
+                <div class="box16 side yellowtag"> </div>
+                <div class="box17 square greentag"> </div>
+                <div class="box18 square whitetag"> </div>
+                <div class="box19 square greentag"> </div>
+                <div class="box20 side yellowtag"> </div>
+                <div class="box21 corner"> </div>
+                <div class="box22 top redtag"> </div>
+                <div class="box23 top orangetag"> </div>
+                <div class="box24 top yellowtag"> </div>
+                <div class="box25 corner"> </div>
+            </div>
+            <div class="cornerarrow">Into</div>
+            <div class="cornercubeafter">
+                <div class="box2 top redtag">  </div>
+                <div class="box3 top redtag">  </div>
+                <div class="box4 top redtag">  </div>
+                <div class="box5 corner">  </div>
+                <div class="box6 side bluetag">  </div>
+                <div class="box7 square whitetag"></div>
+                <div class="box8 square whitetag"> </div>
+                <div class="box9 square whitetag"> </div>
+                <div class="box10 side greentag"> </div>
+                <div class="box11 side bluetag"> </div>
+                <div class="box12 square whitetag"> </div>
+                <div class="box13 square whitetag"> </div>
+                <div class="box14 square whitetag"> </div>
+                <div class="box15 side greentag"> </div>
+                <div class="box16 side bluetag"> </div>
+                <div class="box17 square whitetag"> </div>
+                <div class="box18 square whitetag"> </div>
+                <div class="box19 square whitetag"> </div>
+                <div class="box20 side greentag"> </div>
+                <div class="box21 corner"> </div>
+                <div class="box22 top orangetag"> </div>
+                <div class="box23 top orangetag"> </div>
+                <div class="box24 top orangetag"> </div>
+                <div class="box25 corner"> </div>
+            </div>
+            <div class="secondtitle">Second Layer</div>
+            <div class="secondtext">After you have the first layer done and lined up with the center pieces on the side, you’re ready for another easy algorithm.<br> Flip the cube upside down, so the white face is on the bottom. (x2/y2/z2) <br>Line up a colored piece above the center in a T-shape, and take note of what’s on the top face of that piece.<br> The direction of your next movements depend on if this piece is moving left or right, based on the top of that face.
+            </div>
+            <div class="secondfollowup1"><b>IF YOU ARE MOVING TO THE RIGHT:</b>
+            </div>
+            <div class="secondalg1">U R U’ R’ U’ F’ U F
+            </div>
+            <div class="secondfollowup2"><b>IF YOU ARE MOVING TO THE LEFT:</b></div>
+            <div class="secondalg2">U’ L’ U L U F U’ F’
+            </div>
+            <div class="secondfollowup3">If an incorrect edge is in place, you can use these algorithms to pull them out and replace them.<br> Make sure all four corners are in the correct place before moving on. <br>Here are some examples:
+            </div>
+            <div class="secondcube1">
+                <div class="box2 top yellowtag">  </div>
+                <div class="box3 top greentag">  </div>
+                <div class="box4 top bluetag">  </div>
+                <div class="box5 corner">  </div>
+                <div class="box6 side redtag">  </div>
+                <div class="box7 square greentag"></div>
+                <div class="box8 square orangetag"> </div>
+                <div class="box9 square redtag"> </div>
+                <div class="box10 side yellowtag"> </div>
+                <div class="box11 side yellowtag"> </div>
+                <div class="box12 square bluetag"> </div>
+                <div class="box13 square orangetag"> </div>
+                <div class="box14 square redtag"> </div>
+                <div class="box15 side bluetag"> </div>
+                <div class="box16 side greentag"> </div>
+                <div class="box17 square orangetag"> </div>
+                <div class="box18 square orangetag"> </div>
+                <div class="box19 square orangetag"> </div>
+                <div class="box20 side bluetag"> </div>
+                <div class="box21 corner"> </div>
+                <div class="box22 top whitetag"> </div>
+                <div class="box23 top whitetag"> </div>
+                <div class="box24 top whitetag"> </div>
+                <div class="box25 corner"> </div>
+                <div class="secondarrow1"></div>
+            </div>
+            <div class="secondarrow2">Into</div>
+            <div class="secondcube2">
+                <div class="box2 top yellowtag">  </div>
+                <div class="box3 top yellowtag">  </div>
+                <div class="box4 top yellowtag">  </div>
+                <div class="box5 corner">  </div>
+                <div class="box6 side redtag">  </div>
+                <div class="box7 square greentag"></div>
+                <div class="box8 square greentag"> </div>
+                <div class="box9 square orangetag"> </div>
+                <div class="box10 side bluetag"> </div>
+                <div class="box11 side greentag"> </div>
+                <div class="box12 square orangetag"> </div>
+                <div class="box13 square orangetag"> </div>
+                <div class="box14 square redtag"> </div>
+                <div class="box15 side bluetag"> </div>
+                <div class="box16 side greentag"> </div>
+                <div class="box17 square orangetag"> </div>
+                <div class="box18 square orangetag"> </div>
+                <div class="box19 square orangetag"> </div>
+                <div class="box20 side bluetag"> </div>
+                <div class="box21 corner"> </div>
+                <div class="box22 top whitetag"> </div>
+                <div class="box23 top whitetag"> </div>
+                <div class="box24 top whitetag"> </div>
+                <div class="box25 corner"> </div>
+            </div>
+            <div class="secondcube3">
+                <div class="box2 top redtag">  </div>
+                <div class="box3 top bluetag">  </div>
+                <div class="box4 top yellowtag">  </div>
+                <div class="box5 corner">  </div>
+                <div class="box6 side greentag">  </div>
+                <div class="box7 square yellowtag"></div>
+                <div class="box8 square orangetag"> </div>
+                <div class="box9 square orangetag"> </div>
+                <div class="box10 side bluetag"> </div>
+                <div class="box11 side greentag"> </div>
+                <div class="box12 square orangetag"> </div>
+                <div class="box13 square orangetag"> </div>
+                <div class="box14 square redtag"> </div>
+                <div class="box15 side bluetag"> </div>
+                <div class="box16 side greentag"> </div>
+                <div class="box17 square orangetag"> </div>
+                <div class="box18 square orangetag"> </div>
+                <div class="box19 square orangetag"> </div>
+                <div class="box20 side bluetag"> </div>
+                <div class="box21 corner"> </div>
+                <div class="box22 top whitetag"> </div>
+                <div class="box23 top whitetag"> </div>
+                <div class="box24 top whitetag"> </div>
+                <div class="box25 corner"> </div>
+                <div class="secondarrow3"></div>
+            </div>
+            <div class="secondarrow4">Into</div>
+            <div class="secondcube4">
+                <div class="box2 top orangetag">  </div>
+                <div class="box3 top yellowtag">  </div>
+                <div class="box4 top yellowtag">  </div>
+                <div class="box5 corner">  </div>
+                <div class="box6 side yellowtag">  </div>
+                <div class="box7 square greentag"></div>
+                <div class="box8 square bluetag"> </div>
+                <div class="box9 square orangetag"> </div>
+                <div class="box10 side bluetag"> </div>
+                <div class="box11 side greentag"> </div>
+                <div class="box12 square orangetag"> </div>
+                <div class="box13 square orangetag"> </div>
+                <div class="box14 square orangetag"> </div>
+                <div class="box15 side bluetag"> </div>
+                <div class="box16 side greentag"> </div>
+                <div class="box17 square orangetag"> </div>
+                <div class="box18 square orangetag"> </div>
+                <div class="box19 square orangetag"> </div>
+                <div class="box20 side bluetag"> </div>
+                <div class="box21 corner"> </div>
+                <div class="box22 top whitetag"> </div>
+                <div class="box23 top whitetag"> </div>
+                <div class="box24 top whitetag"> </div>
+                <div class="box25 corner"> </div>
+            </div>
+
+            <!--Algorithm-->
+
+            <div class="algintro">Algorithms
+
+                <div class="algsubtitle">Congrats! You have learned the white cross. Here, our good friend the 2Look method has everything else figured out nicely. Here's the algorithms and diagrams for what to do, and when.<br><b>Note:The grids are the top view of the cube with the yellow face up.</b></div>
+
+                <!--OLL KEY-->
+
+                <div class="container">
+                    <div class="cubetitle">
+                        OLL </div>
+                    <div class="cubesubtitle">
+                        Orient Last Layer</div>
+
+                    <div class="cube cube1">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top ">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side">  </div>
+                        <div class="box7 square"> </div>
+                        <div class="box8 square"> </div>
+                        <div class="box9 square"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square yellowtag"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square"> </div>
+                        <div class="box18 square"> </div>
+                        <div class="box19 square"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top"> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> F  (R U R' U) F'  </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cube cube2">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top yellowtag">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top yellowtag">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side">  </div>
+                        <div class="box7 square"></div>
+                        <div class="box8 square yellowtag"> </div>
+                        <div class="box9 square"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square yellowtag"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square"> </div>
+                        <div class="box18 square yellowtag"> </div>
+                        <div class="box19 square"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top yellowtag"> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top yellowtag"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> F (R U R' U') <br>(R U R' U') (R U R' U') F'  </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+
+
+                    <div class="cube cube3">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side">  </div>
+                        <div class="box7 square"></div>
+                        <div class="box8 square "> </div>
+                        <div class="box9 square"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square"> </div>
+                        <div class="box18 square yellowtag"> </div>
+                        <div class="box19 square"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top "> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top "> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> f (R U R' U') f'</div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="cube cube4">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top yellowtag">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side yellowtag">  </div>
+                        <div class="box7 square"></div>
+                        <div class="box8 square yellowtag"> </div>
+                        <div class="box9 square"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square yellowtag"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side yellowtag"> </div>
+                        <div class="box17 square"> </div>
+                        <div class="box18 square yellowtag"> </div>
+                        <div class="box19 square"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top "> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top yellowtag"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> [f (R U R' U f]<br> [F (R U R' U') F’]
+                                </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="cube cube5">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side">  </div>
+                        <div class="box7 square"></div>
+                        <div class="box8 square"> </div>
+                        <div class="box9 square"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square"> </div>
+                        <div class="box18 square"> </div>
+                        <div class="box19 square"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top "> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> F ( R U R' U') F'] <br>[f (R U R' U') f']
+                                </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="cube cube6">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side">  </div>
+                        <div class="box7 square yellowtag"></div>
+                        <div class="box8 square yellowtag"> </div>
+                        <div class="box9 square yellowtag"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square yellowtag"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square"> </div>
+                        <div class="box18 square yellowtag"> </div>
+                        <div class="box19 square"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top yellowtag"> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top yellowtag"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> R2 [D (RU2) R] <br> [D' (R U2) R']
+                                </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="cube cube7">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top yellowtag">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side">  </div>
+                        <div class="box7 square"></div>
+                        <div class="box8 square yellowtag"> </div>
+                        <div class="box9 square"> </div>
+                        <div class="box10 side yellowtag"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square yellowtag"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square yellowtag"> </div>
+                        <div class="box18 square yellowtag"> </div>
+                        <div class="box19 square"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top"> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top yellowtag"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> (R U R' U) R U2 R'
+                                </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="cube cube8">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top yellowtag">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side">  </div>
+                        <div class="box7 square"></div>
+                        <div class="box8 square yellowtag"> </div>
+                        <div class="box9 square yellowtag"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square yellowtag"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square"> </div>
+                        <div class="box18 square yellowtag"> </div>
+                        <div class="box19 square yellowtag"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top yellowtag"> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> (r U R' U') (r' F R F')
+                                </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="cube cube9">
+                        <div class="box1 cornear">  </div>
+                        <div class="box2 topa">  </div>
+                        <div class="box3 topa">  </div>
+                        <div class="box4 top yellowtag">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side yellowtag">  </div>
+                        <div class="box7 square"></div>
+                        <div class="box8 square yellowtag"> </div>
+                        <div class="box9 square"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square yellowtag"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square"> </div>
+                        <div class="box18 square yellowtag"> </div>
+                        <div class="box19 square yellowtag"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top yellowtag"> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> (L' U' L U') L' U2 L 
+                                </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+
+                    <div class="cube cube10">
+                        <div class="box1 corner">  </div>
+                        <div class="box2 top">  </div>
+                        <div class="box3 top">  </div>
+                        <div class="box4 top">  </div>
+                        <div class="box5 corner">  </div>
+                        <div class="box6 side yellowtag">  </div>
+                        <div class="box7 square"></div>
+                        <div class="box8 square yellowtag"> </div>
+                        <div class="box9 square yellowtag"> </div>
+                        <div class="box10 side"> </div>
+                        <div class="box11 side"> </div>
+                        <div class="box12 square yellowtag"> </div>
+                        <div class="box13 square yellowtag"> </div>
+                        <div class="box14 square yellowtag"> </div>
+                        <div class="box15 side"> </div>
+                        <div class="box16 side"> </div>
+                        <div class="box17 square yellowtag"> </div>
+                        <div class="box18 square yellowtag"> </div>
+                        <div class="box19 square"> </div>
+                        <div class="box20 side"> </div>
+                        <div class="box21 corner"> </div>
+                        <div class="box22 top"> </div>
+                        <div class="box23 top"> </div>
+                        <div class="box24 top yellowtag"> </div>
+                        <div class="box25 corner"> </div>
+                        <ul>
+                            <li class="dropdown">
+                                <div class="algorithms"> F' (r U R' U') (r F R)
+                                </div>
+                                <div class="dropdown-content">
+                                    Alt. Algs.<br>
+                                    test2<br>
+                                </div>
+                            </li>
+                        </ul>  
+                    </div>
+                </div>
+
+                <!--PLL KEY-->
+                <div class="container2">
+                    <div class="cubetitle2">
+                        PLL </div>
+                    <div class="cubesubtitle2">
+                        Permutation Last Layer</div>
+                    <div class="cubea cube1a">
+                        <!-- div class for one algorithm -->
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa green">  </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea orange"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea orange"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa blue"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(RU'R)(URUR)(U'R'U'R2)</div>
+                        <div class="arrow1"></div>
+                        <div class="arrow2"></div>
+                        <div class="arrow3"></div>
+                    </div>
+                    <div class="cubea cube2a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa green">  </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea orange"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea orange"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa blue"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(R2U)(RUR'U')(R'U')(R'UR')</div>
+                        <div class="arrow4"></div>
+                        <div class="arrow5"></div>
+                        <div class="arrow6"></div>
+                    </div>
+                    <div class="cubea cube3a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa">
+                        </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea orange"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea ayellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea orange"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa blue"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma"> M2U M2U2 M2UM2</div>
+                        <div class="arrow7"></div>
+                        <div class="arrow8"></div>
+                    </div>
+                    <div class="cubea cube4a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa"> 
+                        </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea orange"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea orange"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa blue"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma"> (R'U')(RU'R)(URU')(R'URU)(R2U')(R'U2)</div>
+                        <div class="arrow9"></div>
+                        <div class="arrow10"></div>
+                    </div>
+                    <div class="cubea cube5a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa green"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea red"> </div>
+                        <div class="box16a sidea"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa blue"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">x'R2D2(R'U'R)<br>D2(R'UR')</div>
+                        <div class="arrow11"></div>
+                        <div class="arrow12"></div>
+                        <div class="arrow13"></div>
+                    </div>
+
+
+                    <div class="cubea cube6a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa green"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarae yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea ayellow"> </div>
+                        <div class="box14a squarea ayellow"> </div>
+                        <div class="box15a sidea red"> </div>
+                        <div class="box16a sidea"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa blue"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma"> (IU'R)D2<br>(R'UR)D2R2</div>
+                        <div class="arrow14"></div>
+                        <div class="arrow15"></div>
+                        <div class="arrow16"></div>
+                    </div>
+                    <div class="cubea cube7a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa">  </div>
+                        <div class="box3a topa green"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea red"> </div>
+                        <div class="box16a sidea"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa blue"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">x'(RU'R'D)(RUR')u2'<br>(R'UR)D(R'U'R)</div>
+                        <div class="arrow17"></div>
+                        <div class="arrow18"></div>
+                    </div>
+                    <div class="cubea cube8a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa green"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa blue"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(RUR'U')(R'F)(R2U'R'U')(RUR'F')</div>
+                        <div class="arrow19"></div>
+                        <div class="arrow20"></div>
+                    </div>
+                    <div class="cubea cube9a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea red"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">  U'(R'URU'R'2b')<br>x(R'UR)y'<br>(RUR'U'R2)</div>
+                        <div class="arrow21"></div>
+                        <div class="arrow22"></div>
+                    </div>
+                    <div class="cubea cube10a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa ">  </div>
+                        <div class="box3a topa "> 
+                        </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea ">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea red"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea "> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa blue"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(R'UR'U')yx2<br>(R'UR'U'R2)xz')(R'U'RUR)</div>
+                        <div class="arrow23"></div>
+                        <div class="arrow24"></div>
+                    </div>
+
+                    <div class="cubea cube11a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa ">  </div>
+                        <div class="box3a topa "> 
+                        </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea ">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea orange"> </div>
+                        <div class="box11a sidea "> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea orange"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa blue"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">F(RU'R'U')(RUR'F')(RUR'U')(R'FRF')</div>
+                        <div class="arrow25"></div>
+                        <div class="arrow26"></div>
+                    </div>
+
+                    <div class="cubea cube12a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa green"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea "> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa "> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(RUR'F')(RUR'U')(R'FR2U'R'U')</div>
+                        <div class="arrow27"></div>
+                        <div class="arrow28"></div>
+                    </div>
+
+                    <div class="cubea cube13a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa green"> 
+                        </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea red"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">z(U'RD')<br>(R2UR'U'R2U)<br>z'(RU')</div>
+                        <div class="arrow29"></div>
+                        <div class="arrow30"></div>
+                    </div>
+
+                    <div class="cubea cube14a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa">  </div>
+                        <div class="box3a topa green"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea red"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa blue"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(R'U2)(RU'U')(R'FRUR'U')(R'F'R2U')</div>
+                        <div class="arrow31"></div>
+                        <div class="arrow32"></div>
+                    </div>
+                    <div class="cubea cube15a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa"> 
+                        </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea red"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea "> </div>
+                        <div class="box16a sidea"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa blue"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(RU'U')(R'U2)(RB'R'U')(RURBR2'U)</div>
+                        <div class="arrow33"></div>
+                        <div class="arrow34"></div>
+                    </div>
+                    <div class="cubea cube16a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa">  </div>
+                        <div class="box3a topa red"> 
+                        </div>
+                        <div class="box4a topa red">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(R2'u'RU'R)(UR'u)(R2fR'f')</div>
+                        <div class="arrow35"></div>
+                        <div class="arrow36"></div>
+                        <div class="arrow37"></div>
+                        <div class="arrow38"></div>
+                        <div class="arrow39"></div>
+                        <div class="arrow40"></div>
+                    </div>
+                    <div class="cubea cube17a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa">  </div>
+                        <div class="box3a topa"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea green"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea green"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(RUR')y'(R2'u'RU')(R'UR'uR2)</div>
+                        <div class="arrow41"></div>
+                        <div class="arrow42"></div>
+                        <div class="arrow43"></div>
+                        <div class="arrow44"></div>
+                        <div class="arrow45"></div>
+                        <div class="arrow46"></div>
+                    </div>
+                    <div class="cubea cube18a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa">  </div>
+                        <div class="box3a topa"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea green">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea"> </div>
+                        <div class="box16a sidea green"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa blue"> </div>
+                        <div class="box24a topa blue"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(R2u)(R'UR'U')(Ru')(R2'F'UF)</div>
+                        <div class="arrow47"></div>
+                        <div class="arrow48"></div>
+                        <div class="arrow49"></div>
+                        <div class="arrow50"></div>
+                        <div class="arrow51"></div>
+                        <div class="arrow52"></div>
+                    </div>
+                    <div class="cubea cube19a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa">  </div>
+                        <div class="box3a topa"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea blue"> </div>
+                        <div class="box11a sidea"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea blue"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma">(R'd'F)(R2u)(R'U)(RU'Ru'R2')</div>
+                        <div class="arrow53"></div>
+                        <div class="arrow54"></div>
+                        <div class="arrow55"></div>
+                        <div class="arrow56"></div>
+                        <div class="arrow57"></div>
+                        <div class="arrow58"></div>
+                    </div>
+                    <div class="cubea cube20a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa">  </div>
+                        <div class="box3a topa"> 
+                        </div>
+                        <div class="box4a topa green">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea red"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea red"> </div>
+                        <div class="box16a sidea orange"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa blue"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma"> z('UR')z'<br>(RU2L'UR')z(UR')z'<br>(RU2L'UR') </div>
+                        <div class="arrow59"></div>
+                        <div class="arrow60"></div>
+                    </div>
+                    <div class="cubea cube21a">
+                        <div class="box1a cornera">  </div>
+                        <div class="box2a topa green">  </div>
+                        <div class="box3a topa"> 
+                        </div>
+                        <div class="box4a topa">  </div>
+                        <div class="box5a cornera">  </div>
+                        <div class="box6a sidea orange">  </div>
+                        <div class="box7a squarea yellow"> </div>
+                        <div class="box8a squarea yellow"> </div>
+                        <div class="box9a squarea yellow"> </div>
+                        <div class="box10a sidea"> </div>
+                        <div class="box11a sidea orange"> </div>
+                        <div class="box12a squarea yellow"> </div>
+                        <div class="box13a squarea yellow"> </div>
+                        <div class="box14a squarea yellow"> </div>
+                        <div class="box15a sidea red"> </div>
+                        <div class="box16a sidea"> </div>
+                        <div class="box17a squarea yellow"> </div>
+                        <div class="box18a squarea yellow"> </div>
+                        <div class="box19a squarea yellow"> </div>
+                        <div class="box20a sidea red"> </div>
+                        <div class="box21a cornera"> </div>
+                        <div class="box22a topa"> </div>
+                        <div class="box23a topa"> </div>
+                        <div class="box24a topa blue"> </div>
+                        <div class="box25a cornera"> </div>
+                        <div class="algorithma"> z(U'RD')<br>(R2UR'U')z'(RUR')<br>z(R2UR')z'(RU')</div>
+                        <div class="arrow61"></div>
+                        <div class="arrow62"></div>
+                    </div>
+                </div>
+                <div class="stellarcube">
+                    <img class="top" src="../IMG/cubetop.png" alt="cube" style="width:25vw;height:25vw">
+                    <img class="front" src="../IMG/cubefront.png" alt="cube"   style="width:25vw;height:25vw">
+                    <img class="left" src="../IMG/cubeleft.png" alt="cube"       style="width:25vw;height:25vw">
+                    <img class="right" src="../IMG/cuberight.png" alt="cube" style="width:25vw;height:25vw">
+                    <img class="bottom" src="../IMG/cubebottom.png" alt="cube" style="width:25vw;height:25vw">
+                    <img class="back" src="../IMG/cubeback.png" alt="cube" style="width:25vw;height:25vw">
+                </div>
+            </div>
+        </div>
+
+        <!--Algorithm Key Sticky-->
+        <div class="keyholestick">
+
+            <table style="width2:65vw">
+
+                <tr>
+                    <th colspan=8>Algorithm Key <th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter stick">
+                            F
+                        </div>
+                    </td>
+                    <td>Front <br>Clockwise</td> 
+                    <td>
+                        <div class="bigletter stick">F'</div>
+                    </td>
+                    <td>Front <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter stick">F2</div>
+                    </td>
+                    <td>Front <br> Twice</td>
+                    <td>
+                        <div class="bigletter stick">f</div></td>
+                    <td>Front +<br> Adjacent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter stick">R</div>
+                    </td>
+                    <td>Right <br> Clockwise</td> 
+                    <td>
+                        <div class="bigletter stick">R'</div>
+                    </td>
+                    <td>Right <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter stick">R2</div>
+                    </td>
+                    <td>Right <br> Twice</td>
+                    <td>
+                        <div class="bigletter stick">r</div>
+                    </td>
+                    <td>Right +<br> Adjacent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter stick">U</div>
+                    </td> 
+                    <td>Upper <br> Clockwise</td> 
+                    <td>
+                        <div class="bigletter stick">U'</div>
+                    </td>
+                    <td>Upper <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter stick">U2</div>
+                    </td>
+                    <td>Upper <br> Twice</td>
+                    <td>
+                        <div class="bigletter stick">u</div>
+                    </td>
+                    <td>Upper +<br> Adjacent</td>
+                <tr>
+                    <td>
+                        <div class="bigletter stick">L</div>
+                    </td>
+                    <td>Left <br> Clockwise</td>
+                    <td>
+                        <div class="bigletter stick">L'</div>
+                    </td>
+                    <td>Left <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter stick">L2</div>
+                    </td>
+                    <td>Left <br> Twice</td>
+                    <td>
+                        <div class="bigletter stick">l</div>
+                    </td>
+                    <td>Left +<br> Adjacent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter stick">B</div>
+                    </td>
+                    <td>Back <br> Clockwise</td>
+                    <td>
+                        <div class="bigletter stick">B'</div>
+                    </td>
+                    <td>Back <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter stick">B2</div>
+                    </td>
+                    <td>Back <br> Twice</td>
+                    <td>
+                        <div class="bigletter stick">b</div>
+                    </td>
+                    <td>Back +<br> Adjacent</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bigletter stick">D</div>
+                    </td>
+                    <td>Down <br> Clockwise</td>
+                    <td>
+                        <div class="bigletter stick">D'</div>
+                    </td>
+                    <td>Down <br> Counterclockwise</td>
+                    <td>
+                        <div class="bigletter stick">D2</div>
+                    </td>
+                    <td>Down Twice</td>
+                    <td>
+                        <div class="bigletter stick">d</div>
+                    </td>
+                    <td>Down +<br> Adjacent</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="home.css"type="text/css" rel="stylesheet" meta name="Author"content="Malinda Soulivong">
+        <link href="../Aesthetic/banner.css"type="text/css"rel="stylesheet" meta name="Author" content="banner">
+        <link href="portrait.css" type="text/css"rel="stylesheet" meta name="Author" content="images">
+        <link href="../Aesthetic/fontsoll.css" type="text/css" rel="stylesheet">
+        <link href="../Aesthetic/button.css" rel="stylesheet"meta name="Author" content="navbar buttons">
+        <link href="rotatingcube.css" rel="stylesheet" type="text/css">  
+    </head>
+    <title>Home</title>
+    <body>
+        <!--NavBar-->
+        <center>
+            <div class="header">PROJECT TESSERACT</div>
+            <!--YELLOW Button-->
+            <a href="../Home/home.html">
+                <button class="btn home ">Home</button>
+            </a>
+            <!--GREEN Button-->
+            <a href="../Timeline/timeline.html">
+                <button class="btn timeline">Timeline</button>
+            </a>
+            <!--BLUE-->
+            <a href="../StopMotion/video.html"> 
+                <button class="btn video">Mosaic</button></a>
+            <!--ORANGE Button-->
+            <a href="../Algorithm/rubikgrid.html">
+                <button class="btn algorithm">Algorithm</button>
+            </a>
+            <!--RED Button -->
+            <a href="../Shops/links.html"> 
+                <button class="btn
+            shops">Shops</button>
+            </a>
+        </center>
+
+        <!--Colorful Slideshow -->
+        <div class="slideshow-container">
+
+            <!--SLIDE 1-->
+            <div class="slide1"></div>
+            <div class="mySlides fade dodgerblue"><div class="slidetitle darkblue">THE RUBIKS CUBE</div>
+
+                <!--ROTATING CUBE Source:-->
+                <div id="rubix-cube" >
+                    <div class="cube">
+                        <div class="up">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="right">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="front">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="left">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="down">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="back">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+                    </div>
+                </div>
+                <!--TEXT BOX-->
+            </div>
+
+            <!--SECOND SLIDE-->
+            <div class="mySlides fade palered"><div class="slidetitle darkred">Learn To Solve It!</div>
+                <div class="slideinfo darkred">So you don't know how to solve a cube? Not a problem!<br>This site will help you learn how to solve one!
+                </div>
+                <a href="rubikgrid.html">
+                    <div class="slidebtn learn">I'm Ready To Learn</div>
+                </a>
+            </div>
+
+            <!--THIRD SLIDE-->
+            <div class="mySlides fade orange" ><div class="slidetitle darkorange">Practice!</div>
+                <div class="slideinfo darkorange"> Once you learn how to SOLVE IT, Practice!<br> The more you practice, the faster you will be! Are you ready?
+                </div>
+                <a href="links.html">
+                    <div class="slidebtn practice">Start Your Practice
+                    </div>
+                </a>
+            </div>
+
+            <!--FOURTH SLIDE-->
+            <div class="mySlides fade yellow">
+                <div class="slidetitle darkyellow">Have Fun!</div>
+                <div class="slideinfo darkyellow">After you've learned how to solve a Rubik's Cube and practiced, challenge your friends and see who can solve it the fastest! You can also make stop motions!</div>
+                <a href="/StopMotion/video.html"><div class="slidebtn watch">View Stop Motion</div>
+                </a>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- dots/circles on slide -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+        
+        <!--javascript-->
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
+
+        <!--introduction Header-->
+        <div class="creators"></div><div class="creatorstitle">MEET THE CREATORS</div>
+        
+        <!--Introduction Columns-->
+        <div class="row">
+            
+            <!--aiden bio-->
+            <div class="column red">Aiden
+                <div class="imgcontainer3">
+                    <image class="aidenimg" src="../IMG/aiden.png"></image>
+                <div class="imgoverlay red">
+                    <div class="bio aiden">
+                        Aiden 'Stellar' Warble was the assigned lead developer for Project Tesseract. He coded the algorithms page. In his free time, he draws, writes stories and code, and mains Roy and Mewtwo in SSBU. His lovely girlfriend Michelle made this icon. 
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--malinda bio-->
+            <div class="column green">Malinda 
+                <div class="imgcontainer2"> 
+                    <image class="malindaimg" src="../IMG/malinda.png"></image>
+                    <div class="imgoverlay green">
+                        <div class="bio malinda"><br>Malinda Soulivong is a Junior at the Academy At Palumbo, she is the artist and coder. She was assigned the role of Project Manager. She is in charge of styling the pages and coding! 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--brandon bio-->
+            <div class="column orange">Brandon<div class="imgcontainer orange"><image class="brandonimg" src="../IMG/brandon.jpeg">
+                </image>
+                <div class="imgoverlay orange">
+                    <div class="bio brandon">Junior at the Academy at Palumbo, creator of the stop motion animation and timeline. Captain of the chess team, this popcorn was very delicious... look we're matching.
+                    </div>
+                </div>
+                </div>
+            </div>   
+        </div>
+    </body>
+</html>

@@ -55,7 +55,7 @@ body {
 img{
     position: absolute;
     width: 50vw;
-    top:18vh;
+    top:20vh;
     left:26vw;
     opacity: 0;
     animation:animate;

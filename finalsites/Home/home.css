@@ -3,6 +3,9 @@ body{
 }
 *,*:before,*:after{box-sizing:border-box;}
 
+.navbar{
+    text-align:center;
+}
 /*container for slides */
 .slideshow-container {
     width: 97.8vw;

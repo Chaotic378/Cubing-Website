@@ -3,14 +3,12 @@ body {
     background-color: #0000;
     font-family: 'Ubuntu', sans-serif;
 }
-.navbar{
-    text-align:center;
-}
+
 /*timeline box/container*/
 .tbox{
     background-color: forestgreen;
     width:97.9vw;
-    height: 550vw;
+    height: 360vw;
     margin-top: 1.5vw;
     box-shadow: 1px 2px 5px black;
     border-radius: 10px;
@@ -19,7 +17,7 @@ body {
     border-width: thick;
     font-size: 4vw;
     color:white;
-    font-family:'anton'; 
+    font-family:'impact'; 
     text-shadow: 5px 5px 1px darkgreen;
     text-align: center;
     position: relative;
@@ -28,12 +26,10 @@ body {
 h1 {
     color:white;
     font-size:4vw;
-    font-family: 'anton';
+    font-family: 'impact';
     text-align: center;
     margin-top: -5vw;
     text-shadow: 4px 4px 1px darkgreen;
-    
-    
 }
 h3 {
     color:white;
@@ -64,170 +60,200 @@ img {
 /*big bang*/
 
 .bigbang{
+    position:absolute;
     width:20vw;
     margin-left: -40vw;
 }
 .cbigbang{
+    position:absolute;
     color: white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:17vh;
+    top:29vh;
     left:30vw;
     
 }
 /*erno was born*/
 .born{
+    position:absolute;
      width:20vw;
     margin-left: -40vw;
     margin-top: 22vw;
 }
 .cborn{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:53vh;
+    top:80vh;
     left:30vw;
 }
 /* the first two by two puzzle cube*/
 .twizzle{
+    position:absolute;
      width:20vw;
     margin-left: -40vw;
     margin-top: 50vw;
 }
 .ctwizzle{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:79vh;
+    top:122vh;
     left:30vw;
 }
 .originalcube{
+    position:absolute;
     width:20vw;
     margin-top: 67.5vw;
     margin-left: -40vw;
 }
 .coriginalcube{
-    color:white;
-    text-shadow: 1px 1px 1px darkgreen;
-    top:104vh;
-    left:30vw;
-}
-.revenge{
-     width:20vw;
-   margin-left: -40vw;
-    margin-top: 90vw;
-}
-.crevenge{
-    color:white;
-    text-shadow: 1px 1px 1px darkgreen;
-    top:130vh;
-    left:30vw;
-}
-.rerubiks{
-     width:20vw;
-    margin-left: -40vw;
-    margin-top: 113vw;
-}
-.crerubiks{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
     top:160vh;
     left:30vw;
 }
-.mrrubik{
+.revenge{
+    position:absolute;
      width:20vw;
-    margin-left: -40vw;
-    margin-top: 168vh
+   margin-left: -40vw;
+    margin-top: 92vw;
 }
-.cmrrubik{
+.crevenge{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:189vh;
+    top:207vh;
+    left:30vw;
+}
+.rerubiks{
+    position:absolute;
+     width:20vw;
+    margin-left: -40vw;
+    margin-top: 117vw;
+}
+.crerubiks{
+    position:absolute;
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:256vh;
+    left:30vw;
+}
+.mrrubik{
+    position:absolute;
+     width:20vw;
+    margin-left: -40vw;
+    margin-top: 268vh
+}
+.cmrrubik{
+    position:absolute;
+    color:white;
+    text-shadow: 1px 1px 1px darkgreen;
+    top:299vh;
     left:30vw;
 }
 .youcandothecube{
+    position:absolute;
     width:20vw;
     margin-left:-40vw;
-    margin-top: 199vh
+    margin-top: 315vh
 }
 .cyoucandothecube{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:216vh;
+    top:342vh;
     left:30vw;
 }
 .oxford{
+    position:absolute;
     width:20vw;
     margin-left:-40vw;
-    margin-top:224vh;
+    margin-top:353vh;
 }
 .coxford{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:249vh;
+    top:393vh;
     left:30vw;
 }
 .tv{
+    position:absolute;
     width:20vw;
     margin-left:-40vw;
-    margin-top: 262vh;
+    margin-top: 413vh;
 }
 .ctv{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:288vh;
+    top:455vh;
     left:30vw;
 }
 .clock{
+    position:absolute;
     width:20vw;
     margin-left:-40vw;
-    margin-top:304vh;
+    margin-top:477vh;
 }
 .cclock{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:324vh;
+    top:507vh;
     left:30vw;
 }
 .WCA{
+    position:absolute;
     width:20vw;
     margin-left:-40vw;
-    margin-top:328vh;
+    margin-top:516vh;
 }
 .cWCA{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:348vh;
+    top:548vh;
     left:30vw;
 }
 .vcube{
+    position:absolute;
     width:20vw;
     margin-left:-40vw;
-    margin-top:357vh;
+    margin-top:563vh;
 }
 .cvcube{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:373vh;
+    top:588vh;
     left:30vw;
 }
 .godsnumber{
+    position:absolute;
     width:20vw;
     margin-left:-40vw;
-    margin-top:376vh;
+    margin-top:595vh;
 }
 .cgodsnumber{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:392vh;
+    top:619vh;
     left:30vw;
 }
 .biggestcube{
+    position:absolute;
     width:20vw;
     margin-left:-40vw;
-    margin-top:394vh;
+    margin-top:624vh;
 }
 .cbiggestcube{
+    position:absolute;
     color:white;
     text-shadow: 1px 1px 1px darkgreen;
-    top:410vh;
+    top:650vh;
     left:30vw;
 }
 /*.caption{
@@ -237,5 +263,3 @@ img {
     left:30vw;
     
 } */
-
-/*The Big Bang*/

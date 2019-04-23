@@ -17,7 +17,7 @@ body {
     border-width: thick;
     font-size: 4vw;
     color:white;
-    font-family:'impact'; 
+    font-family:'anton'; 
     text-shadow: 5px 5px 1px darkgreen;
     text-align: center;
     position: relative;
@@ -26,7 +26,7 @@ body {
 h1 {
     color:white;
     font-size:4vw;
-    font-family: 'impact';
+    font-family: 'anton';
     text-align: center;
     margin-top: -5vw;
     text-shadow: 4px 4px 1px darkgreen;

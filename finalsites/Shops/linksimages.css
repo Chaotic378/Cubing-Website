@@ -17,6 +17,13 @@
     max-width:24vw;
     position: absolute;
 }
+/*image of community*/
+.forumimg{
+    margin-top: -20.5vw;
+    left: 73%;
+    max-width:25vw;
+    position: absolute;
+}
 
 /*SHAKE IMAGE ON HOVER*/
 /*Source:W3 Schools*/

@@ -438,7 +438,7 @@ th{
     color: white;
     text-shadow:3px 4px 2px blue;
     font-size: 3vw;
-    font-family: impact;
+    font-family: Anton;
 }
 
 .magicsubtitle {
@@ -463,7 +463,7 @@ th{
 }
 .algintro {
     color: white;
-    font-family: impact;
+    font-family: Anton;
     text-shadow:
 		3px 3px 5px darkorange;
     font-size: 4vw;
@@ -616,7 +616,7 @@ border-radius: 1vw;
 
 .subtitlexyz {
     color: white;
-    font-family: 'impact';
+    font-family: 'Anton';
     font-size: 3vw;
     text-align: center;
     text-shadow:
@@ -664,7 +664,7 @@ border-radius: 1vw;
 }
 .whitecrosstitle {
    color: white;
-    font-family: 'impact';
+    font-family: 'Anton';
     text-shadow:
 		4px 4px 2px darkgreen;
     font-size: 4vw;

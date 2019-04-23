@@ -47,7 +47,7 @@ div {
 }
 .introtitle{
       text-align: center;
-    font-family:'impact'; 
+    font-family:'anton'; 
     text-shadow: 2.5px 2px 9px orangered;
      font-size: 4vw;
     color:white;
@@ -79,7 +79,7 @@ div {
     color:white;
     text-align: center;
     text-shadow: 1px 2px 3px blue;
-    font-family:'impact'; 
+    font-family:'anton'; 
     text-shadow: 3px 5px 5px blue;
     
  
@@ -129,7 +129,7 @@ div {
 }
 .cubetitle {
     font-size: 10vw;
-    font-family: impact;
+    font-family: 'anton';
     background-color: transparent;
     color: white;
     text-shadow:
@@ -140,7 +140,7 @@ div {
 }
 .cubesubtitle {
     font-size: 2.5vw;
-    font-family: impact;
+    font-family: 'anton';
     background-color: transparent;
     color: White;
     text-shadow: 1px 2px 5px orangered;

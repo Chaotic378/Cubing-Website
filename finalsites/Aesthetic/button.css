@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
 }
 .btn {
-    font-family: 'anton'; 
+    font-family: 'Anton'; 
     /*border: 2px solid black;*/
     border-color: white;
     border-width: thick;
@@ -26,7 +26,7 @@ body {
 /*Navbar Buttons for algorithm page
 Source: W3 Schools*/
 .btna {
-    font-family: 'anton'; 
+    font-family: 'Anton'; 
     /*border: 2px solid black;*/
     border-color: white;
     border-width: thick;

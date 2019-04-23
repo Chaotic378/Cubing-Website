@@ -3,7 +3,9 @@ body {
     background-color: #0000;
     font-family: 'Ubuntu', sans-serif;
 }
-
+.navbar{
+    text-align:center;
+}
 /*timeline box/container*/
 .tbox{
     background-color: forestgreen;

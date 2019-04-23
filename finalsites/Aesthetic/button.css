@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
 }
 .btn {
-    font-family: 'Anton'; 
+   font-family: 'Anton', sans-serif;
     /*border: 2px solid black;*/
     border-color: white;
     border-width: thick;
@@ -26,7 +26,7 @@ body {
 /*Navbar Buttons for algorithm page
 Source: W3 Schools*/
 .btna {
-    font-family: 'Anton'; 
+    font-family: 'Anton', sans-serif;
     /*border: 2px solid black;*/
     border-color: white;
     border-width: thick;
@@ -115,7 +115,7 @@ Source: W3 Schools*/
 /*Home Page Slides Buttons
 src: w3 schools*/
 .slidebtn{
-    font-family: 'Anton'; 
+    font-family: 'Anton', sans-serif;
     /*border: 2px solid black;*/
     padding: 1vw 1vw;
     width:20vw;

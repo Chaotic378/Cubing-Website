@@ -24,7 +24,7 @@ div {
 /*Titles The Grid*/
 .cubetitle2 {
     font-size: 10vw;
-    font-family: 'impact';
+    font-family: 'anton';
     background-color: transparent;
     color: white;
     text-shadow: 3px 3px 3px orangered;
@@ -36,7 +36,7 @@ div {
 /*Subtitle text settings*/
 .cubesubtitle2 {
     font-size: 2.5vw;
-    font-family: 'impact';
+    font-family: 'anton';
     background-color: transparent;
     text-shadow: 2px 2px 5px orangered;
     color: white;

@@ -8,7 +8,7 @@ body{
 }
 /*container for slides */
 .slideshow-container {
-    width: 97.8vw;
+    width: 98vw;
     margin-top: 1vw;
     object-fit: contain;
     align-items: center;

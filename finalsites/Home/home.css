@@ -88,7 +88,7 @@ body{
     to {opacity: 1}
 }
 .slidetitle{
-    font-family: impact;
+    font-family: Anton;
     font-size: 4vw;
     color: white;
     text-align: center;
@@ -143,7 +143,7 @@ body{
     text-align: center;
     color: white;
     font-size: 30px;
-    font-family: 'impact'; 
+    font-family: 'Anton'; 
     box-shadow:  3px 6px 5px darkslategray;
     border-radius: 8px;
     text-shadow: 1px 2px 2px black;
@@ -190,7 +190,7 @@ body{
     border-radius: 5px;
 }
 .creatorstitle{
-    font-family:'impact'; 
+    font-family:'Anton'; 
     text-shadow: 3px 4px 2px darkorange;
     font-size: 4vw;
     color:white;
